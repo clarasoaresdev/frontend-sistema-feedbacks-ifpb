@@ -1,0 +1,19 @@
+
+#cadastro{ 
+    position: relative;
+    display: flex;
+    top: 100px;
+    left: 600px;
+    width: 500px;
+    height: auto;
+    background-color: rgb(104, 138, 115);
+    border: none;
+    border-radius: 20px;
+    box-shadow:0 6px 10px 6px #5e5e5e;
+}
+.field{
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+

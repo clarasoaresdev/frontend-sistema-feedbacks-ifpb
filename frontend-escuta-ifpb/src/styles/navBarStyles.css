@@ -1,0 +1,13 @@
+nav{
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding:0;
+  border:none;
+}
+.d-flex{
+  position: absolute;
+  display: grid;
+  gap: 15px;
+  right:10px;
+}

@@ -1,0 +1,40 @@
+nav{
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding:0;
+  border:none;
+}
+.d-flex{
+  position: absolute;
+  display: grid;
+  gap: 15px;
+  right:10px;
+}
+article{
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding:0;
+  border:none;
+}
+
+#titulo{
+  position: absolute;
+  left: 40%;
+  margin-top: 150px;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#paragrafo{
+  position:absolute; /* Tira o texto do fluxo normal e o posiciona sobre a imagem */
+  padding-top: 400px;
+  left:20%;
+  right:20%;
+  color: white;    
+  text-align: center;  
+  font-size: 24px;
+  
+}
