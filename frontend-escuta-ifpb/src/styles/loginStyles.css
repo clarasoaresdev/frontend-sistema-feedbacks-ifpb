@@ -1,52 +1,45 @@
-#cadastro{ 
+#login{ 
     position: relative;
-    top: 40px;
-    left: 580px;
+    top: 100px;
+    left: 560px;
     width: 800px;
-    height: 840px;
+    height: 600px;
     background-color: #008000;
     border: none;
     border-radius: 20px;
     box-shadow:0 6px 10px 6px #181616;
 }
-#titulo-cad{
+#titulo-login{
     position: relative;
     color: white;
     font-weight: bold;
     border: none;
     padding: 0;
     top: 40px;
-    left: 300px;
+    left: 330px;
 }
-#fieldset-cad{
+#fieldset-login{
     position:relative;
-    top: 40px;
+    top: 160px;
     left: 100px;
     margin: 0;
     border: none;
 }
-#volta-login{
-    position: relative;
-    left: 200px;
-    color: white;
-}
-.field-cad{
+.field-login{
     color: white;
     border: none;
     width: 600px;
     padding: 10px;
 }
-
-.form-select{
-    position: relative;
-    left: 10px;
-    background-color: #00aa00;
-    color: white;
-    width: 580px;
-    border-radius: 40px;
-}
 .form-control{
    background: none;
    border: 1px solid white;
    border-radius: 40px;
+}
+
+#ir-cadastro{
+    position: relative;
+    top: 100px;
+    left: 140px;
+    color: white;
 }

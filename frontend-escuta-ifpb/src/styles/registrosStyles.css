@@ -9,7 +9,7 @@
     border-radius: 20px;
     box-shadow:0 6px 10px 6px #181616;
 }
-#titulo-cad{
+h1{
     position: relative;
     color: white;
     font-weight: bold;
@@ -18,7 +18,7 @@
     top: 40px;
     left: 300px;
 }
-#fieldset-cad{
+fieldset{
     position:relative;
     top: 40px;
     left: 100px;
@@ -30,7 +30,7 @@
     left: 200px;
     color: white;
 }
-.field-cad{
+.field{
     color: white;
     border: none;
     width: 600px;
