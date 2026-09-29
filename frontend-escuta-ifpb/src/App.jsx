@@ -12,7 +12,8 @@ function App() {
     <>
     <img src={imagemFundo} className="background" alt="imagem de fundo" />
     <Navbar/>
-    <Outlet></Outlet>
+    <Outlet/>
+  
     </>
   )
 }

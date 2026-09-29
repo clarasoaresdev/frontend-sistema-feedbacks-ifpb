@@ -1,4 +1,4 @@
-#cadastro{ 
+main{ 
     position: relative;
     top: 40px;
     left: 580px;
@@ -17,36 +17,4 @@ h1{
     padding: 0;
     top: 40px;
     left: 300px;
-}
-fieldset{
-    position:relative;
-    top: 40px;
-    left: 100px;
-    margin: 0;
-    border: none;
-}
-#volta-login{
-    position: relative;
-    left: 200px;
-    color: white;
-}
-.field{
-    color: white;
-    border: none;
-    width: 600px;
-    padding: 10px;
-}
-
-.form-select{
-    position: relative;
-    left: 10px;
-    background-color: #00aa00;
-    color: white;
-    width: 580px;
-    border-radius: 40px;
-}
-.form-control{
-   background: none;
-   border: 1px solid white;
-   border-radius: 40px;
 }

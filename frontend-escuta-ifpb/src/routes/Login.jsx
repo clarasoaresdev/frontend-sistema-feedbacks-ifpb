@@ -1,7 +1,12 @@
 import '../styles/loginStyles.css';
 import { Link } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom'
+
 const Login = () => {
-   return(
+    
+    const navigate = useNavigate();
+    
+    return(
     <>
     <form id="login">
             <h1 id="titulo-login">Login</h1>
@@ -14,11 +19,14 @@ const Login = () => {
                     <label for="exampleInputPassword1" className="form-label mt-4">Digite sua senha:</label>
                     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off"></input>
                 </div>
-                <div id="ir-cadastro">
-                    <label>Ainda não possui uma conta?</label><Link to="/Cadastro"><a style={{color: 'white'}}>Cadastre-se</a></Link>
-                 </div>
+                <div className="btn-login">
+                    <button onClick={() => navigate("/Registros")}>Login</button>
+                </div>
             </fieldset>
-        </form>
+    </form>
+     <div id="ir-cadastro">
+        <label>Ainda não possui uma conta?</label><Link to="/Cadastro"><a style={{color: 'white'}}>Cadastre-se</a></Link>
+    </div>
     </>
    ) ;
 };

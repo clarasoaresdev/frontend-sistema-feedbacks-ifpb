@@ -11,6 +11,7 @@ import Home from './routes/Home.jsx'
 import Cadastro from './routes/Cadastro.jsx'
 import Login from './routes/Login.jsx'
 import Registros from './routes/Registros.jsx' 
+import  PrivateRoute from './routes/PrivateRoute.jsx';
 
 const router  = createBrowserRouter([
   {
@@ -18,20 +19,22 @@ const router  = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        path: "/Home",
+        path: "/",
         element: <Home/>
       },
       {
         path: "/Cadastro",
-        element: <Cadastro/>
+        element:<Cadastro/>
       },
       {
         path: "/Login",
-        element: <Login/>
+        element:<Login/>
       },
       {
-        path: "/Login/Registros",
-        element: <Registros/>
+        path: "/Registros",
+        element:(<PrivateRoute> 
+                    <Registros/>
+                 </PrivateRoute>)
       },
     ]
   },
